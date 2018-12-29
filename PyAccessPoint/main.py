@@ -128,7 +128,7 @@ def main():
                                                                             'network')
     parser.add_argument('-n', "--netmask", required=False, default='255.255.255.0',
                         help='no idea what to put here as help, if don\'t know what is it don\'t change this parameter')
-    parser.add_argument('-s', "--ssid", required=False, default='MyAccessPoint', help='name of new hotspot')
+    parser.add_argument('-s', "--ssid", required=False, default='qrooms', help='name of new hotspot')
     parser.add_argument('-p', "--password", required=False, default='1234567890',
                         help='password that can be used to connect to created hotspot')
     parser.add_argument('-sc', "--save_config", required=False, action='store_true',
